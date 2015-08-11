@@ -31,8 +31,8 @@ end
 describe TodoList do
 
   it 'is empty when initialized' do
-    todo = TodoList.new
-    assert_equal todo.items, []
+    todos = TodoList.new
+    assert_equal todos.items, []
   end
 
   it 'includes an item when you insert it' do
