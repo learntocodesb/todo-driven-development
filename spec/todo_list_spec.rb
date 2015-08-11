@@ -2,11 +2,19 @@ require_relative '../lib/todo_list'
 require_relative './spec_helper'
 
 # INSTRUCTIONS:
-# 1) Run the tests
-# 2) *RED* Write failing test (if there already is one)
-# 2) *GREEN* Fix failure
+# Go through the tests in order from top to bottom
+# until all tests are implemented and green.
+
+# 1) Check the test output
+# 2) *RED* Write failing test (skip this step if test
+#            already implemented)
+# 2) *GREEN* Fix the test failure
 #       - ProTip: switch to file with command + p
+#       - Be sure to have the pane you want
+#          it to open in selected first!
 # 3) Commit
+#      - ProTip: review your changes in SourceTree
+#          before committing
 # 4) *REFACTOR*
 # 5) Commit
 # 6) Repeat with next failing or unwritten test
