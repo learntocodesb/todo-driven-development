@@ -50,8 +50,19 @@ describe TodoList do
 
   end
 
-  it 'deletes completed todos when you call clear' do
-
+  it 'displays incomplete items with a [ ]' do
+    todos = TodoList.new
+    todos.add 'Do the laundry'
+    assert_equal '[ ] Do the laundry',
+      todos.to_s
   end
+
+  it 'displays completed items with a [X]'
+
+  it 'displays numbers next to each todo'
+
+  it 'deletes completed todos when you call clear'
+
+  # you choose the functionality from here! :-D
 
 end
