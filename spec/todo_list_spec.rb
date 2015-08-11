@@ -66,11 +66,7 @@ describe TodoList do
   # Congratulations, you now have
   # a usable todo list! Just don't restart
   # your computer ;-)
-  # Try it out by running `bundle exec pry`
-  # and calling `require 'lib/todo_list'`
 
-  # How can you make it more powerful and
-  # easier to use?
-  # You choose the functionality from here! :-D
+  # try making a usable command line app! See todo.rb
 
 end
