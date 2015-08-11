@@ -39,8 +39,8 @@ describe TodoList do
     todos = TodoList.new
     todos.add 'Learn about TDD in ruby!'
 
-    # notice what happens to the failure
-    # message if you re-order the parameters
+    # Question: what happens if you re-order
+    # the assert parameters?
     assert_descriptions_equal ['Learn about TDD in ruby!'],
       todos
   end
@@ -51,11 +51,8 @@ describe TodoList do
     todos.add 'Do laundry'
     todos.add 'Walk dog'
 
-    # Question: what happens if
-    # you re-order the parameters?
     assert_descriptions_equal ['Walk dog', 'Do laundry', 'Pay bills'],
       todos
-
   end
 
   it 'displays incomplete items with a [ ]' do
