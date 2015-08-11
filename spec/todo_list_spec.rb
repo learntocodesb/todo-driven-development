@@ -77,4 +77,9 @@ describe TodoList do
 
   # try making a usable command line app! See todo.rb
 
+
+  # force minitest not to randomize test order
+  def self.test_order
+    :alpha
+  end
 end
