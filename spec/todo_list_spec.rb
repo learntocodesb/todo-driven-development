@@ -45,15 +45,15 @@ describe TodoList do
       todos
   end
 
-  it 'adds new todo items to the top of the list' do
+  it 'adds newest todos to the top of the list' do
     todos = TodoList.new
-    todos.add 'Red'
-    todos.add 'Green'
-    todos.add 'Refactor!'
+    todos.add 'Pay bills'
+    todos.add 'Do laundry'
+    todos.add 'Walk dog'
 
     # Question: what happens if
     # you re-order the parameters?
-    assert_descriptions_equal ['Red', 'Green', 'Refactor!'],
+    assert_descriptions_equal ['Walk dog', 'Do laundry', 'Pay bills'],
       todos
 
   end
