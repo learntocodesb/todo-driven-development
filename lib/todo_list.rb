@@ -8,4 +8,8 @@ class TodoList
     @items = nil
   end
 
+  def add(description)
+    new_item = TodoItem.new(description)
+  end
+
 end
