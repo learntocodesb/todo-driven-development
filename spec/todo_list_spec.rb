@@ -5,6 +5,7 @@ require_relative './spec_helper'
 # 1) Run the tests
 # 2) *RED* Write failing test (if there already is one)
 # 2) *GREEN* Fix failure
+#       - ProTip: switch to file with command + p
 # 3) Commit
 # 4) *REFACTOR*
 # 5) Commit
@@ -34,7 +35,6 @@ describe TodoList do
     # message if you re-order the parameters
     assert_descriptions_equal ['Learn about TDD in ruby!'],
       todos
-
   end
 
   it 'adds new todo items to the top of the list' do
@@ -59,10 +59,18 @@ describe TodoList do
 
   it 'displays completed items with a [X]'
 
-  it 'displays numbers next to each todo'
+  it 'displays numbers next to each todo item'
 
   it 'deletes completed todos when you call clear'
 
-  # you choose the functionality from here! :-D
+  # Congratulations, you now have
+  # a usable todo list! Just don't restart
+  # your computer ;-)
+  # Try it out by running `bundle exec pry`
+  # and calling `require 'lib/todo_list'`
+
+  # How can you make it more powerful and
+  # easier to use?
+  # You choose the functionality from here! :-D
 
 end
